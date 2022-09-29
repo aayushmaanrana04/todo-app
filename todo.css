@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    /* background: linear-gradient(#e66465, #9198e5); */
+    height: 100vh;
+    user-select: none;
+}
+
+.out{
+    margin: auto;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    background: rgb(14, 14, 14);
+    
+    /* height: 20em; */
+    padding: 1em;
+    border-radius: 10px;
+    
+}
+
+.show{
+}
+
+.out h1{
+    color: aliceblue;
+    /* text-decoration: line-through; */
+}
+
+.type{
+    display: flex;
+    /* margin-bottom: 1em; */
+}
+
+#myUL{
+    margin-top: 1em;
+    user-select: none;
+
+    
+    /* max-height: 20em; */
+        
+    overflow:scroll;
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
